@@ -1683,7 +1683,7 @@ footer p {
     font-weight: 600;
 }
 .staff_pic{
-    height: 200px;
+    height: 232px;
 
 }
 .staff_picp{
@@ -1707,4 +1707,46 @@ footer p {
 }
 #about{
     background-color: #e6e6e6;
+}
+
+.staff-tags{
+   margin: 0 10px 10px 10px;
+}
+.staff-tags .color3 {
+    background: #4cae4c;
+}
+.staff-tags a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px 0 10px;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+    margin: 5px 10px 5px 8px;
+}
+.staff-tags a:before {
+    content: " ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    left: -18px;
+    border: 9px solid transparent;
+}
+.staff-tags .color3:before, .mobile-header-tag-container #mobile-header-container-tags .color3:before, #sidebar-menu-box-tags .color3:before, #sidebar-menu-box-categories .color3:before {
+    border-right-color: #4cae4c;
+}
+.staff-tags a:after {
+    content: " ";
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 7px;
+    left: 2px;
 }
