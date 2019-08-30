@@ -81,12 +81,12 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
 }
-.wthree-left-right p,.about-jewel-agile-left p,.blog-txt-info p,.addres-office-hour ul li  p,.footer-office-hour p,.footer-office-hour p a,.ser-inner-info p{  
+.wthree-left-right p,.about-jewel-agile-left p,.staff-txt-info p,.addres-office-hour ul li  p,.footer-office-hour p,.footer-office-hour p a,.ser-inner-info p{
    font-size: 14px;
     color: #fff;
     line-height: 28px;}
-.about-jewel-agile-left p,.blog-txt-info p,.bottom-para h6 a,.footer-office-hour p{color:#000;}
-.about-jewel-agile-left h4,.blog-txt-info h4 a,.team-w3layouts-info h4,.addres-office-hour ul li h6,.ser-inner-info h4{
+.about-jewel-agile-left p,.staff-txt-info p,.bottom-para h6 a,.footer-office-hour p{color:#000;}
+.about-jewel-agile-left h4,.staff-txt-info h4 a,.team-w3layouts-info h4,.addres-office-hour ul li h6,.ser-inner-info h4{
     font-size: 19px;
     color:#ea1d5d;
     text-transform: capitalize;
@@ -676,9 +676,9 @@ transition: 0.90s;
     padding: 2em 1em;
 }
 /*--//service --*/
-/*-- blog--*/
+/*-- staff--*/
 
-.blog-txt-info {
+.staff-txt-info {
     background: #fff;
     padding: 1em 1em;
 }
@@ -692,7 +692,7 @@ transition: 0.90s;
 .clients-color,.team-shadow {
 box-shadow: 2px 0px 20px 0px #757575;
 }
-/*-- //blog--*/
+/*-- //staff--*/
 /*-- count--*/
 .stats{
     background: url(../images/cc1.jpg)no-repeat center;
@@ -901,7 +901,7 @@ opacity: 1;
 }
 /*--//contact --*/
 /*--Footer --*/
-.footer,footer,.blog{
+.footer,footer,.staff{
     background:#e6e6e6;
 }
 .nav-footer{background:#000;}
@@ -1068,7 +1068,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .text-wls-ser-bake span {
     font-size: 35px;
 }
-.about-jewel-agile-left h4, .blog-txt-info h4 a, .team-w3layouts-info h4, .addres-office-hour ul li h6, .ser-inner-info h4 {
+.about-jewel-agile-left h4, .staff-txt-info h4 a, .team-w3layouts-info h4, .addres-office-hour ul li h6, .ser-inner-info h4 {
     font-size: 18px;
 }
 .outs_more-buttn a {
@@ -1177,7 +1177,7 @@ h1 a.navbar-brand {
 .text-wls-ser-bake span {
     font-size: 32px;
 }
-.blog-txt-info {
+.staff-txt-info {
     padding: .7em .7em;
 }
 .stats-grid {
@@ -1262,7 +1262,7 @@ background: #fff;
 .info-contact-agile {
     padding-top: 7px;
 }
-.w3layouts-service-list:nth-child(3),.blog-grid-flex:nth-child(3),
+.w3layouts-service-list:nth-child(3),.staff-grid-flex:nth-child(3),
 .stats-grid-3,.stats-grid-4,.profile:nth-child(3),
 .profile:nth-child(4),.dance-agile-info:nth-child(3),.dance-agile-info:nth-child(4),.view:nth-child(2),.view:nth-child(3){
     margin-top: 24px;
@@ -1357,7 +1357,7 @@ letter-spacing: 1px;
 }
 }
 @media(max-width:767px){
-	.about-jewel-agile-left h4, .blog-txt-info h4 a, .team-w3layouts-info h4, .addres-office-hour ul li h6, .ser-inner-info h4 {
+	.about-jewel-agile-left h4, .staff-txt-info h4 a, .team-w3layouts-info h4, .addres-office-hour ul li h6, .ser-inner-info h4 {
     font-size: 17px;
 }
 /*.latest-list {
@@ -1508,7 +1508,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .address_mail_footer_grids iframe {
     height: 14em;
 }
-.w3layouts-service-list:nth-child(1),.blog-grid-flex:nth-child(1),.dance-agile-info:nth-child(1) {
+.w3layouts-service-list:nth-child(1),.staff-grid-flex:nth-child(1),.dance-agile-info:nth-child(1) {
     margin-bottom:20px;
 }
 .callbacks_nav {
@@ -1552,7 +1552,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	    font-size: 30px;
     letter-spacing: 2px;
 }
-.about-jewel-agile-left h4, .blog-txt-info h4 a, .team-w3layouts-info h4, .addres-office-hour ul li h6, .ser-inner-info h4 {
+.about-jewel-agile-left h4, .staff-txt-info h4 a, .team-w3layouts-info h4, .addres-office-hour ul li h6, .ser-inner-info h4 {
     font-size: 16px;
 }
 .subscrib-w3layouts h2 {
@@ -1672,3 +1672,28 @@ footer p {
 }
 }
 /*--//responsive--*/
+
+
+.c_purple{
+    color: #884898;
+    font-weight: 600;
+}
+.c_red{
+    color: #f00;
+    font-weight: 600;
+}
+.staff_pic{
+    height: 200px;
+
+}
+
+.staff_name{
+    text-align: center;
+    margin-top: 20px;
+}
+.staff_brief{
+    padding: 10px 10px;
+}
+.stats-grid-5{
+    margin-top: 24px;
+}
