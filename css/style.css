@@ -1686,7 +1686,9 @@ footer p {
     height: 200px;
 
 }
-
+.staff_picp{
+    overflow: hidden;
+}
 .staff_name{
     text-align: center;
     margin-top: 20px;
